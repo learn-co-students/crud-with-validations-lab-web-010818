@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 4.2'
+gem 'jquery-rails'
 gem 'sqlite3'
 gem 'rspec-rails'
 gem 'sass-rails', '~> 5.0'
@@ -9,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+  gem "better_errors"
+  gem "binding_of_caller"
   gem 'capybara'
   gem 'pry'
 end
